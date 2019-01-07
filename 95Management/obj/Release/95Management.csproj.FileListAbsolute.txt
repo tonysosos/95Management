@@ -105,3 +105,4 @@ E:\Documents\GitHub\95Management\95Management\bin\zh-Hans\System.Web.WebPages.Ra
 E:\Documents\GitHub\95Management\95Management\obj\Release\95Management.csproj.CoreCompileInputs.cache
 E:\Documents\GitHub\95Management\95Management\obj\Release\95Management.dll
 E:\Documents\GitHub\95Management\95Management\obj\Release\95Management.pdb
+E:\Documents\GitHub\95Management\95Management\obj\Release\95Management.csprojResolveAssemblyReference.cache

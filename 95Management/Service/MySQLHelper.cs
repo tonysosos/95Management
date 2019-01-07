@@ -6,13 +6,13 @@ using System.Web;
 
 namespace _95Management.Service
 {
-    public class MySQLHelper
+    public class SQLHelper
     {
-        static MySQLHelper _instance = null;
+        static SQLHelper _instance = null;
         static object locked = null;
         static MySqlConnection conn = null;
 
-        static MySQLHelper()
+        static SQLHelper()
         {
             try
             {
@@ -29,7 +29,7 @@ namespace _95Management.Service
 
             }
         }
-        public static MySQLHelper Instance
+        public static SQLHelper Instance
         {
             get
             {
@@ -37,11 +37,16 @@ namespace _95Management.Service
                 {
                     if (_instance == null)
                     {
-                        _instance = new MySQLHelper();
+                        _instance = new SQLHelper();
                     }
                     return _instance;
                 }
             }
+        }
+
+        public MySqlConnection GetConnection()
+        {
+            return conn;
         }
 
         public int InsertNewUser(string name, string nickname, string openid, string phoneno, DateTime jointime, string iconulr = "")
