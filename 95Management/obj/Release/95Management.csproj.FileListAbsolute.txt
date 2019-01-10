@@ -106,3 +106,5 @@ E:\Documents\GitHub\95Management\95Management\obj\Release\95Management.csproj.Co
 E:\Documents\GitHub\95Management\95Management\obj\Release\95Management.dll
 E:\Documents\GitHub\95Management\95Management\obj\Release\95Management.pdb
 E:\Documents\GitHub\95Management\95Management\obj\Release\95Management.csprojResolveAssemblyReference.cache
+E:\Documents\GitHub\95Management\95Management\bin\log4net.dll
+E:\Documents\GitHub\95Management\95Management\bin\log4net.xml

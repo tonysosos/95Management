@@ -106,3 +106,5 @@ E:\Documents\GitHub\95Management\95Management\obj\Debug\95Management.csprojResol
 E:\Documents\GitHub\95Management\95Management\obj\Debug\95Management.csproj.CoreCompileInputs.cache
 E:\Documents\GitHub\95Management\95Management\obj\Debug\95Management.dll
 E:\Documents\GitHub\95Management\95Management\obj\Debug\95Management.pdb
+E:\Documents\GitHub\95Management\95Management\bin\log4net.dll
+E:\Documents\GitHub\95Management\95Management\bin\log4net.xml

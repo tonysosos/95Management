@@ -1,4 +1,5 @@
 ﻿using _95Management.Models;
+using log4net;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ namespace _95Management.Controllers
 {
     public class MatchController : ApiController
     {
+        private ILog log = LogManager.GetLogger(typeof(MatchController));
         public HttpResponseMessage Get(int id)
         {
             JObject res = new JObject();
@@ -27,9 +29,13 @@ namespace _95Management.Controllers
             }
             catch (Exception e)
             {
-                string a = e.Message;
+                log.Error("Match-Get 异常：" + e.Message + ". MatchId：" + id);
+                res.Add("retcode", "0002");
+                res.Add("retmsg", "异常："+e.Message);
+                return Request.CreateResponse(res);
             }
-
+            res.Add("retcode", "0000");
+            res.Add("retmsg", "");
             return Request.CreateResponse(res);
         }
     }

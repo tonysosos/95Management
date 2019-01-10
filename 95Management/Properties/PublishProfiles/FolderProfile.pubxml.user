@@ -76,10 +76,10 @@
       <publishTime>01/04/2019 11:36:52</publishTime>
     </File>
     <File Include="bin/95Management.dll">
-      <publishTime>01/07/2019 18:50:46</publishTime>
+      <publishTime>01/10/2019 13:39:53</publishTime>
     </File>
     <File Include="bin/95Management.pdb">
-      <publishTime>01/07/2019 18:50:46</publishTime>
+      <publishTime>01/10/2019 13:39:53</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>02/22/2013 08:43:40</publishTime>
@@ -89,6 +89,9 @@
     </File>
     <File Include="bin/ApplicationInsights.config">
       <publishTime>01/04/2019 11:37:28</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/08/2017 19:26:22</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>11/30/2016 16:07:42</publishTime>
@@ -397,7 +400,7 @@
       <publishTime>01/04/2019 11:36:52</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/04/2019 14:10:10</publishTime>
+      <publishTime>01/10/2019 13:39:56</publishTime>
     </File>
   </ItemGroup>
 </Project>
